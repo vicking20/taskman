@@ -3,8 +3,7 @@ import axios, { AxiosError, AxiosResponse } from "axios";
 import { TaskStatusEnum } from "../types/types";
 
 const apiClient = axios.create({
-    baseURL: "http://192.168.0.117:5000/api",
-    //baseURL: "http://172.16.3.0:5000/api", //baseurl from second wifi connection
+    baseURL: "http://<enter ip address here>:5000/api",
     timeout: 5000,
 });
 
